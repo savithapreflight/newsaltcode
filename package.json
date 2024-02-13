@@ -1,0 +1,132 @@
+{
+  "name": "io.cordova.hellocordova",
+  "displayName": "HelloCordova",
+  "version": "1.0.0",
+  "description": "A sample Apache Cordova application that responds to the deviceready event.",
+  "homepage": "./",
+  "main": "index.js",
+  "dependencies": {
+    "@awesome-cordova-plugins/android-permissions": "^6.4.0",
+    "@date-io/date-fns": "^2.16.0",
+    "@date-io/moment": "^2.16.1",
+    "@material-ui/core": "^4.12.4",
+    "@material-ui/data-grid": "^4.0.0-alpha.37",
+    "@material-ui/icons": "^4.11.3",
+    "@material-ui/pickers": "^3.2.8",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/user-event": "^14.4.3",
+    "axios": "^1.4.0",
+    "axios-middleware": "^0.3.1",
+    "clsx": "^1.2.1",
+    "cordova-plugin-android-permissions": "^1.1.5",
+    "cordova-plugin-androidx-adapter": "^1.1.3",
+    "cordova-plugin-ble": "^2.0.1",
+    "cordova-plugin-brightness": "^0.2.0",
+    "cordova-plugin-device": "^2.1.0",
+    "cordova-plugin-network-information": "^3.0.0",
+    "cordova-plugin-screen-orientation": "^3.0.3",
+    "cordova-plugin-splashscreen": "^6.0.2",
+    "cordova-sqlite-storage": "^6.1.0",
+    "crypto-js": "^4.1.1",
+    "date-fns": "^2.30.0",
+    "es6-promise-plugin": "^4.2.2",
+    "history": "^5.3.0",
+    "html2canvas": "^1.4.1",
+    "https-browserify": "^1.0.0",
+    "jspdf": "^2.5.1",
+    "moment": "^2.29.4",
+    "moment-timezone": "^0.5.43",
+    "qrcode.react": "^3.1.0",
+    "react": "^16.8.0||^17.0.0 || ^18.0.0",
+    "react-dom": "^16.8.0||^17.0.0 || ^18.0.0",
+    "react-qr-reader": "^3.0.0-beta-1",
+    "react-redux": "^8.1.0",
+    "react-router": "^6.13.0",
+    "react-router-dom": "^5.3.4",
+    "react-scripts": "^5.0.1",
+    "react-toastify": "^9.1.3",
+    "recompose": "^0.30.0",
+    "redux": "^4.2.1",
+    "redux-logger": "^3.0.6",
+    "redux-promise-middleware": "^6.1.3",
+    "redux-thunk": "^2.4.2",
+    "rimraf": "^5.0.1",
+    "sass": "^1.63.4",
+    "socket.io-client": "^4.6.2",
+    "stream-http": "^3.2.0",
+    "style-loader": "^3.3.3",
+    "url": "^0.11.3",
+    "web-vitals": "^3.3.2",
+    "websql": "^2.0.3"
+  },
+  "peerDependencies": {
+    "react": "^16.8.0||^17.0.0 || ^18.0.0",
+    "react-dom": "^16.8.0||^17.0.0 || ^18.0.0"
+  },
+
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build ",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "cordova": {
+    "plugins": {
+      "cordova-plugin-screen-orientation": {},
+      "cordova-plugin-splashscreen": {},
+      "cordova-plugin-brightness": {},
+      "cordova-plugin-device": {},
+      "cordova-plugin-network-information": {},
+      "cordova-sqlite-storage": {},
+      "cordova-plugin-ble": {},
+      "cordova-plugin-qrscanner": {},
+      "cordova-plugin-file": {},
+      "cordova-pdf-generator": {},
+      "cordova-plugin-x-socialsharing": {},
+      "cordova-plugin-androidx-adapter": {},
+      "cordova-plugin-whitelist": {},
+      "cordova-plugin-android-permissions": {},
+      "cordova-plugin-tsc-bluetooth-printer": {},
+      "cordova-plugin-file-transfer": {}
+    },
+    "platforms": [
+      "android"
+    ]
+  },
+  "devDependencies": {
+    "@types/websql": "0.0.27",
+    "cordova-android": "^12.0.0",
+    "cordova-pdf-generator": "^2.1.1",
+    "cordova-plugin-file": "^6.0.2",
+    "cordova-plugin-file-transfer": "github:apache/cordova-plugin-file-transfer",
+    "cordova-plugin-qrscanner": "^3.0.1",
+    "cordova-plugin-tsc-bluetooth-printer": "file:../TscBluetoothPrinter",
+    "cordova-plugin-whitelist": "^1.3.4",
+    "cordova-plugin-x-socialsharing": "^6.0.3"
+  },
+  "overrides": {
+    "recompose": {
+      "react": ">=16.0.0"
+    }
+  },
+  "keywords": [
+    "ecosystem:cordova"
+  ],
+  
+  "author": "Apache Cordova Team",
+  "license": "Apache-2.0"
+  
+  
+}

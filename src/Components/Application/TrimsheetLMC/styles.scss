@@ -1,0 +1,177 @@
+.form-control-light {
+  border: solid 1px #000;
+  height: 40px;
+  padding-left: 12px;
+  width: 100%;
+  border-radius: 4px;
+  color: #000;
+  outline: none;
+  text-transform: uppercase;
+  background: transparent;
+  &:focus {
+    box-shadow: none;
+  }
+}
+
+.form-control-dark {
+  border: solid 1px #fff;
+  height: 40px;
+  padding-left: 12px;
+  width: 100%;
+  border-radius: 4px;
+  color: #fff;
+  outline: none;
+  text-transform: uppercase;
+  background: transparent;
+  &:focus {
+    box-shadow: none;
+  }
+}
+
+// .flight-input-lmc-dark{
+//     border: solid 1px #ffffff;
+//     height: 25px;
+//     padding-left: 12px;
+//     width: 100%;
+//     border-radius: 4px;
+//     color: #ffffff;
+//     outline: none;
+//     text-transform: uppercase;
+//     background: transparent;
+//     &:focus{
+//         box-shadow: none;
+//     }
+// }
+// .flight-input-lmc-light{
+//     border: solid 1px #000;
+//     height: 25px;
+//     padding-left: 12px;
+//     width: 100%;
+//     border-radius: 4px;
+//     color: #000;
+//     outline: none;
+//     text-transform: uppercase;
+//     background: transparent;
+//     &:focus{
+//         box-shadow: none;
+//     }
+// }
+
+.flight-input-no-label-lmc-light {
+  border: solid 1px #000;
+  height: 40px;
+  // padding-left: 12px;
+  width: 100%;
+  border-radius: 4px;
+  color: #000;
+  outline: none;
+  text-transform: uppercase;
+  background: transparent;
+  &:focus {
+    box-shadow: none;
+  }
+  text-align: center;
+}
+
+.flight-input-no-label-lmc-dark {
+  border: solid 1px #ffffff;
+  height: 40px;
+  // padding-left: 12px;
+  width: 100%;
+  border-radius: 4px;
+  color: #ffffff;
+  outline: none;
+  text-transform: uppercase;
+  background: transparent;
+  &:focus {
+    box-shadow: none;
+  }
+  text-align: center;
+}
+.flight-input-no-label-lmc-dark::placeholder {
+  color: #ffffff;
+}
+.flight-input-with-label-lmc-dark::placeholder {
+  color: #ffffff;
+}
+.flight-input-with-label-lmc-dark {
+  border: solid 1px #ffffff;
+  height: 40px;
+  padding-left: 12px;
+  width: 100%;
+  border-radius: 4px;
+  color: #ffffff;
+  outline: none;
+  text-transform: uppercase;
+  background: transparent;
+  &:focus {
+    box-shadow: none;
+  }
+  text-align: center;
+}
+
+.flight-input-with-label-lmc-light {
+  border: solid 1px #000;
+  height: 40px;
+  padding-left: 12px;
+  width: 100%;
+  border-radius: 4px;
+  color: #000;
+  outline: none;
+  text-transform: uppercase;
+  background: transparent;
+  &:focus {
+    box-shadow: none;
+  }
+}
+
+.si-light {
+  border: solid 1px #000;
+  height: 40px;
+  padding-left: 12px;
+  width: 100%;
+  border-radius: 4px;
+  color: #000;
+  outline: none;
+  background: transparent;
+  &:focus {
+    box-shadow: none;
+  }
+}
+
+.si-dark {
+  border: solid 1px #fff;
+  height: 40px;
+  padding-left: 12px;
+  width: 100%;
+  border-radius: 4px;
+  color: #fff;
+  outline: none;
+  background: transparent;
+  &:focus {
+    box-shadow: none;
+  }
+}
+
+.cell-padding {
+  border: 1px solid;
+}
+
+.error-cell {
+  border: 1px solid red !important;
+}
+
+.text-left {
+  text-align: left !important;
+}
+
+.paper-content {
+  margin: 0 !important;
+  width: 110%;
+  height: 450px;
+}
+
+.root-class {
+  min-height: 200px !important;
+  // height: unset !important;
+}
